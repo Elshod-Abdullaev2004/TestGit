@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="img/1164751.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>SNAKE</title>
+  </head>
+  <body>
+    <!--Задний фон игры-->
+    <img src="./img/forest.gif" alt="forest" id="bg__jungle" />
+    <!---->
+    <!--Главная-->
+    <div id="main">
+      <div class="main__menu_title">
+        <h1 class="main__menu_title-text">
+          <span>S</span>
+          <span>N</span>
+          <span>A</span>
+          <span>K</span>
+          <span>E</span>
+        </h1>
+      </div>
+      <!--Главное меню-->
+      <div class="main__menu_list">
+        <button class="main__menu_list-button menu__button_start">
+          ИГРАТЬ
+        </button>
+        <button class="main__menu_list-button menu__button_records">
+          РЕКОРДЫ
+        </button>
+        <button class="main__menu_list-button menu__button_option">
+          ОПЦИИ
+        </button>
+        <button class="main__menu_list-button menu__button_exit">ВЫХОД</button>
+      </div>
+      <!---->
+      <!--Меню настроек-->
+      <div id="option__menu">
+        <div class="option__menu_list">
+          <div class="option__menu_list-item">
+            <label class="option__btn_border"
+              >БЕЗ ГРАНИЦ:
+              <input type="checkbox" class="option" id="borders" name="scales"
+            /></label>
+          </div>
+          <div class="option__menu_list-item">
+            <label class="option__btn_berry"
+              >ДОП.ЯГОДЫ:
+              <input type="checkbox" class="option" id="berrys" name="scales"
+            /></label>
+          </div>
+          <div class="option__menu_list-item">
+            <label class="option__btn_music"
+              >МУЗЫКА:
+              <input type="checkbox" class="option" id="music" name="scales"
+            /></label>
+          </div>
+          <div class="option__menu_list-item">
+            <label class="option__btn_sound"
+              >ЗВУКИ:
+              <input type="checkbox" class="option" id="sound" name="scales"
+            /></label>
+          </div>
+        </div>
+        <button class="option__menu_exit-button">
+          <h5>MEНЮ</h5>
+        </button>
+      </div>
+      <!---->
+      <!--Список рекордов-->
+      <!---->
+    </div>
+    <!---->
+
+    <!--Игра-->
+    <!---->
+
+    <script type="text/javascript" src="script/script.js"></script>
+  </body>
+</html>
